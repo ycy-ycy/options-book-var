@@ -1,0 +1,18 @@
+# Private book: never commit. positions.example.json is the public template.
+positions.json
+
+# Python environments (conda metadata holds local paths)
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
