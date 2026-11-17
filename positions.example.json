@@ -1,0 +1,20 @@
+{
+  "today": "2026-11-06",
+  "rate": 0.0428,
+  "positions": [
+  {"type": "stock",  "ticker": "CBOE",  "direction": "B", "qty": 100},
+
+  {"type": "option", "ticker": "AMZN",  "direction": "B", "qty": 2, "proxy": "VXN3M",
+   "opt_type": "CALL", "strike": 270,   "expiry": "2027-01-15", "spot": 259.30, "price": 11.63},
+  {"type": "option", "ticker": "META",  "direction": "B", "qty": 1, "proxy": "VXN3M",
+   "opt_type": "CALL", "strike": 660,   "expiry": "2027-02-19", "spot": 610.15, "price": 38.70},
+  {"type": "option", "ticker": "MSFT",  "direction": "B", "qty": 1, "proxy": "VXN3M",
+   "opt_type": "CALL", "strike": 555,   "expiry": "2027-02-19", "spot": 530.61, "price": 26.58},
+  {"type": "option", "ticker": "NVDA",  "direction": "B", "qty": 2, "proxy": "VXN3M",
+   "opt_type": "CALL", "strike": 200,   "expiry": "2027-02-19", "spot": 186.64, "price": 13.45},
+  {"type": "option", "ticker": "TSM",   "direction": "B", "qty": 1, "proxy": "VXN3M",
+   "opt_type": "CALL", "strike": 400,   "expiry": "2027-02-19", "spot": 375.44, "price": 23.73},
+  {"type": "option", "ticker": "GOOGL", "direction": "B", "qty": 1, "proxy": "VXN3M",
+   "opt_type": "CALL", "strike": 310,   "expiry": "2027-02-19", "spot": 284.78, "price": 13.28}
+]
+}
